@@ -24,7 +24,6 @@ O **Conversor de Moedas** é um aplicativo web simples que permite converter val
 
    ```bash
    git clone https://github.com/MartiniCode90/Conversor-de-Moedas.git
-   cd conversor-de-moedas
 
 2. **Navegue até o diretório do backend e execute o projeto:**
 
