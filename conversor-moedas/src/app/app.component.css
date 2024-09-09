@@ -1,0 +1,104 @@
+.converter {
+  max-width: 600px;
+  width: 100%;
+  height: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+  position: relative;
+  border-radius: 15px;
+}
+
+.converter h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.form-group select,
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.form-group_amount label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.form-group_amount select,
+.form-group_amount input {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.convert-button {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 20px 0;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.convert-button:hover {
+  background-color: #0056b3;
+}
+
+.result {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 10px;
+  color: #333;
+  font-weight: bold;
+}
+
+@media (max-width: 480px) {
+  .converter {
+    padding: 15px;
+    height: auto;
+  }
+
+  .converter-title {
+    font-size: 20px;
+  }
+
+  .form-group select,
+  .form-group input {
+    font-size: 14px;
+  }
+
+  .convert-button {
+    font-size: 14px;
+  }
+
+  .result {
+    font-size: 16px;
+  }
+}

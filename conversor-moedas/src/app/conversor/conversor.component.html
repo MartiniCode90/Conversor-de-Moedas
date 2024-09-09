@@ -1,0 +1,13 @@
+<div class="conversor">
+  <h2>Currency Converter</h2>
+  <input [(ngModel)]="fromCurrency" placeholder="From Currency" />
+  <input [(ngModel)]="toCurrency" placeholder="To Currency" />
+  <input [(ngModel)]="amount" placeholder="Amount" type="number" />
+
+  <button (click)="convert()">Convert</button>
+
+  <div *ngIf="convertedAmount">
+    <p>Converted Amount: {{ convertedAmount }}</p>
+  </div>
+</div>
+
